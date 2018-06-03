@@ -15,5 +15,3 @@ docker stop pcserver
 echo "Docker container create ..."
 docker run -p 8081:8081 --name="pcserver" --network="pcnetwork" -d pcserver
 echo "Docker container running ..."
-docker container prune -f
-echo "Docker container pruned!"
