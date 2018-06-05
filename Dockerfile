@@ -1,5 +1,5 @@
 # use a node base image
-USER root
+USER gagiyev
 
 FROM node:latest
 
