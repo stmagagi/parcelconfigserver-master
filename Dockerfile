@@ -1,4 +1,6 @@
 # use a node base image
+USER root
+
 FROM node:latest
 
 WORKDIR /usr/src/app
